@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+    <definition name="/board/boardList" extends="baseLayout">
+       <put-attribute name="title" value="게시판" />
+       <put-attribute name="body"  value="/WEB-INF/views/board/Board_List.jsp" />
+    </definition>
+
+	<definition name="/board/addArticle" extends="baseLayout">
+		<put-attribute name="title" value="새로운 글 추가" />
+		<put-attribute name="body"  value="/WEB-INF/views/board/addArticle.jsp" />
+	</definition>
+    
+</tiles-definitions>
